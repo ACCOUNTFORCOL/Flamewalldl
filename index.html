@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flamewall Dl</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="navbar">
+    <h1>Flamewall GDPS Demonlist</h1>
+
+    <a class="nav-btn" href="#" onclick="showPage('demon-page');return false;">
+        Demon List
+    </a>
+
+    <a class="nav-btn" href="#" onclick="showPage('stats-page');return false;">
+        Stats Viewer
+    </a>
+</div>
+
+<div class="separator"></div>
+
+<div id="content">
+
+    <div id="demon-page" class="page active">
+
+        <div class="list-container">
+
+            <div class="list-panel" id="level-list">
+            </div>
+
+            <div class="details-panel">
+
+                <div class="details-header" id="level-name">
+                    Loading...
+                </div>
+
+                <div class="details-content">
+
+                    <div class="video-container">
+                        <iframe
+                            id="level-video"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+
+                    <div class="info-row">
+                        <strong>Position:</strong>
+                        <span id="position"></span>
+                    </div>
+
+                    <div class="info-row">
+                        <strong>Creator:</strong>
+                        <span id="creator"></span>
+                    </div>
+
+                    <div class="info-row">
+                        <strong>Verifier:</strong>
+                        <span id="verifier"></span>
+                    </div>
+
+                    <div class="info-row">
+                        <strong>ID:</strong>
+                        <span id="level-id"></span>
+                    </div>
+
+                    <div class="info-row">
+                        <strong>Description:</strong>
+                        <span id="description"></span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="stats-page" class="page">
+
+        <div class="list-container">
+
+            <div class="list-panel" id="player-list">
+            </div>
+
+            <div class="details-panel">
+
+                <div class="details-header" id="player-name">
+                    Loading...
+                </div>
+
+                <div class="details-content">
+
+                    <div class="info-row">
+                        <strong>Points:</strong>
+                        <span id="player-points"></span>
+                    </div>
+
+                    <div class="info-row">
+                        <strong>Level Completions:</strong>
+                        <span id="player-completions"></span>
+                    </div>
+
+                    <div class="info-row">
+                        <strong>Level Verifications:</strong>
+                        <span id="player-verifications"></span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    Flamewall Is Peak
+</footer>
+
+<script src="main.js"></script>
+
+</body>
+</html>
