@@ -3,7 +3,7 @@ const levelFiles = [
 ];
 
 const playerFiles = [
-    "stats/username.json"
+    "stats/wudja.json"
 ];
 
 function showPage(pageId){
