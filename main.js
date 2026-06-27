@@ -1,5 +1,5 @@
 const levelFiles = [
-    "levels/pgt5.json"
+    "levels/pgt.json"
 ];
 
 const playerFiles = [
@@ -19,6 +19,7 @@ function showLevel(level){
 
     document.getElementById("level-name").textContent = level.name;
     document.getElementById("position").textContent = "#" + level.position;
+    document.getElementById("points").textContent = "#" + level.points;
     document.getElementById("creator").textContent = level.creator;
     document.getElementById("verifier").textContent = level.verifier;
     document.getElementById("level-id").textContent = level.id;
