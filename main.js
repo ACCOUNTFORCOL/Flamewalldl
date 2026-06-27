@@ -1,5 +1,5 @@
 const levelFiles = [
-    "levels/placeholder.json"
+    "levels/pgt5.json"
 ];
 
 const playerFiles = [
